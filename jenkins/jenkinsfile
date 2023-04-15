@@ -3,13 +3,13 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        bat 'Hi, this is Anshul from LevelUp360'
-                        bat 'We are Starting the Testing'
+                        bat "Hi, this is Mubarak"
+                        bat "We are Starting the Testing"
                   }
             }
             stage('Build') {
                   steps {
-                        bat 'Building Sample Maven Project'
+                        bat "Building Sample Maven Project"
                   }
             }
             stage('Deploy') {
