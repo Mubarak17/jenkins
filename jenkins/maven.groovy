@@ -1,7 +1,7 @@
 freeStyleJob('Maven-Dsl') {
     description("first maven project")
     scm {
-        github('https://github.com/Mubarak17/jenkins.git',master)
+        github('https://github.com/Mubarak17/jenkins.git')
     }
     triggers {
         scm('* * * * *')
