@@ -1,5 +1,5 @@
-Job("Maven-Dsl") {
-    description{"first maven project"}
+Job('Maven-Dsl') {
+    description("first maven project")
     scm {
         git("https://github.com/Mubarak17/jenkins.git", master)
     }
