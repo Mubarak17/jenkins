@@ -3,8 +3,8 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                         "Hi, this is Mubarak"
-                        bat "We are Starting the Testing"
+                         echo "Hi, this is Mubarak"
+                        echo "We are Starting the Testing"
                   }
             }
             stage('Build') {
