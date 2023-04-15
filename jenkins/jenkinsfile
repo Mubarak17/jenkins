@@ -3,13 +3,13 @@ pipeline {
       stages {
             stage('Init') {
                   steps {
-                        bat "Hi, this is Mubarak"
+                         "Hi, this is Mubarak"
                         bat "We are Starting the Testing"
                   }
             }
             stage('Build') {
                   steps {
-                        bat "Building Sample Maven Project"
+                        echo "Building Sample Maven Project"
                   }
             }
             stage('Deploy') {
