@@ -1,4 +1,4 @@
-Job('Maven-Dsl') {
+freeStyleJob('Maven-Dsl') {
     description("first maven project")
     scm {
         git("https://github.com/Mubarak17/jenkins.git", master)
